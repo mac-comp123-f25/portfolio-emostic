@@ -1,6 +1,5 @@
 # Mind Maps
 
-## Creativity
+## Chapter 1
 
-![0808-mind_map_example.jpg](0808-mind_map_example.jpg)
-
+![MindMapCH1.png](MindMapCH1.png)
