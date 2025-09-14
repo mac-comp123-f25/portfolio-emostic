@@ -1,15 +1,28 @@
 import turtle
 
 window = turtle.Screen()
-my_turtle = turtle.Turtle()
 
-t1 = turtle.Turtle()
-t1.color("blue")
-t1.shape("turtle")
+star = turtle.Turtle()
 
-for i in range(5):
-    t1.forward(100)
-    t1.right(144)
+star.color("blue")
+star.shape("turtle")
+
+# Draw a 5-pointed star manually
+star.forward(100)
+star.right(144)
+
+star.forward(100)
+star.right(144)
+
+star.forward(100)
+star.right(144)
+
+star.forward(100)
+star.right(144)
+
+star.forward(100)
+star.right(144)
+
 
 #now second turtle
 t2 = turtle.Turtle()
