@@ -15,3 +15,7 @@
 ## Chapter 4
 
 ![MindMapCH4.png](MindMapCH4.png)
+
+## Chapter 5
+
+![MindMapCH5.png](MindMapCH5.png)
