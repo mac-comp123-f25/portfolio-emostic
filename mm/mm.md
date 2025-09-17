@@ -19,3 +19,11 @@
 ## Chapter 5
 
 ![MindMapCH5.png](MindMapCH5.png)
+
+## Section 6.1-6.4
+
+![MindMapS6.1-6.4.png](MindMapS6.1-6.4.png)
+
+## Section 6.5-6.7
+
+![MindMapS6.5-6.7.jpeg](MindMapS6.1-6.4.jpeg)
