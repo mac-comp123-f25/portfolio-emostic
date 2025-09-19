@@ -26,4 +26,8 @@
 
 ## Section 6.5-6.7
 
-![MindMapS6.5-6.7.jpeg](MindMapS6.1-6.4.jpeg)
+![MindMapS6.5-6.7.jpeg](MindMapS6.5-6.7.jpeg)
+
+## Section 6.7-end
+
+![MindMapS6.7-end.jpg](MindMapS6.7-end.jpg)
