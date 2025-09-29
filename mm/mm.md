@@ -31,3 +31,7 @@
 ## Section 6.7-end
 
 ![MindMapS6.7-end.jpg](MindMapS6.7-end.jpg)
+
+## Chapter 7
+
+![MindMapCH7.pdf](MindMapCH7.pdf)
