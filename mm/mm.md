@@ -35,3 +35,11 @@
 ## Chapter 7
 
 ![MindMapCH7.pdf](MindMapCH7.pdf)
+
+## Chapter 20
+
+![MindMapCH20.jpeg](MindMapCH20.jpeg)
+
+## Chapter 8
+
+![MindMapCH8.jpeg](MindMapCH8.jpeg)
