@@ -19,7 +19,7 @@ def print_every_other(x):
 
 def print_every_fifth(x):
     """
-    Prints every other value from a given number down to zero
+    Prints every fifth value from a given number down to zero
     """
     while x >= 5:      # x is the loop variable
         print(x)
