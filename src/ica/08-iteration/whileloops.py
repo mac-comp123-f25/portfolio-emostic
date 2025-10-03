@@ -17,6 +17,16 @@ def print_every_other(x):
     # when indentation stops, while loop is over
     print("Done!")
 
+def print_every_fifth(x):
+    """
+    Prints every other value from a given number down to zero
+    """
+    while x >= 5:      # x is the loop variable
+        print(x)
+        x = x - 5
+
+    # when indentation stops, while loop is over
+    print("Done!")
 
 def square_user_nums():
     """
@@ -77,6 +87,8 @@ if __name__ == '__main__':
     print_every_other(11)
     print("printEveryOther(4) does:")
     print_every_other(4)
+    print("printEveryFifth(20) does:")
+    print_every_fifth(20)
 
     print_seperator_line()
     print("Sample call to squareUserNums:")
