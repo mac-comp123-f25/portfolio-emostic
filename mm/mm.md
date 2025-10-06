@@ -43,3 +43,7 @@
 ## Chapter 8
 
 ![MindMapCH8.jpeg](MindMapCH8.jpeg)
+
+## Chapter 9
+
+![MindMapCH9.jpeg](MindMapCH9.jpeg)
