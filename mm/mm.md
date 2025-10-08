@@ -47,3 +47,7 @@
 ## Chapter 9
 
 ![MindMapCH9.jpeg](MindMapCH9.jpeg)
+
+## Chapter 10
+
+![MindMapCH10.jpeg](MindMapCH10.jpeg)
