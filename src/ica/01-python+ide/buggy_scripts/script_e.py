@@ -1,4 +1,4 @@
 # scriptE.py
 
-strng = "apples"
+string = "apples"
 print(string, string, string)
