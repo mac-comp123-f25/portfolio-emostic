@@ -55,3 +55,7 @@
 ## Chapter 12
 
 ![MindMapCH12.jpeg](MindMapCH12.jpeg)
+
+## Chapter 11
+
+![MindMapCH11.jpeg](MindMapCH11.jpeg)
