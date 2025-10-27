@@ -43,14 +43,13 @@ def lookup_office (name, direct_table):
     return "No entry: " + name
 print(lookup_office('Fox, Susan', directory))
 
-def lookup_by_date(month, day, table ):
+def lookup_by_date(month, day, sun_table ):
     day = str(day)
 
-    for row in table:
+    for row in sun_table:
         if row['Month'] == month and row['Day'] == day:
             return row
     return "No entry: " + month + " " + day
-print(lookup_by_date('January', '1', data))
 
 
 def collect_by_building(building, table):
@@ -112,7 +111,7 @@ def main():
     print(olri)
     cc = collect_by_building('Campus Center', directory)
     print_table(cc, ['Name', 'Phone', 'Building', 'OfficeNum'])
-
+    print(lookup_by_date('January', '1', sun_table))
     # march_data = select_by_month('March', sun_table)
     # july_data = select_by_month('July', sun_table)
     # january_data = select_by_month('January', sun_table)
