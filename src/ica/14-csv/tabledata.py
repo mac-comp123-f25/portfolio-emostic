@@ -43,6 +43,15 @@ def lookup_office (name, direct_table):
     return "No entry: " + name
 print(lookup_office('Fox, Susan', directory))
 
+def lookup_by_date(month, day, table ):
+    day = str(day)
+
+    for row in table:
+        if row['Month'] == month and row['Day'] == day:
+            return row
+    return "No entry: " + month + " " + day
+print(lookup_by_date('January', '1', data))
+
 
 def collect_by_building(building, table):
     """
