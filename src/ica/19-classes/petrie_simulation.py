@@ -46,6 +46,7 @@ class Employee:
         return self.will_comment
 
     def get_comments_received(self):
+        return self.comments_received
 
 
 def print_employee_list(lst):
