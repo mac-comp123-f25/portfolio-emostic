@@ -54,8 +54,8 @@ def print_employee_list(lst):
     Given a list of employees, this method will print the details of each employee
     by using the print() method
     """
-    # TODO: Implement this function then remove this line
-    pass
+    for employee in lst:
+        print(employee)
 
 
 def create_employees(total_num):
@@ -63,18 +63,23 @@ def create_employees(total_num):
     Takes in the number of employees to make, builds and returns a list that contains
     that many employees. It ensures that ~80% are men and the rest women.
     """
-    # TODO: Implement this function then remove this line
-    pass
-
+    employees = []
+    num_men = int(total_num * 0.8)
+    num_women = total_num - num_men
+    for employee in range(num_men):
+        employees.append(Employee("Man", False))
+    for employee in range(num_women):
+        employees.append(Employee("Woman", True))
 
 def create_commenters(lst):
     """
     Given a list of employees, make 20% of each gender be sexist employees. This
     method should not return anything.
     """
-    # TODO: Implement this function then remove this line
-    pass
+    for employee in lst:
 
+        if random.random() < 0.2:
+            employee.set_commenter_status(True)
 
 def generate_comments(lst):
     """
