@@ -63,3 +63,7 @@
 ## Chapter 17
 
 ![MindMapCH17.jpeg](MindMapCH17.jpeg)
+
+## Chapter 18
+
+![MindMapCH18.jpeg](MindMapCH18.jpeg)
