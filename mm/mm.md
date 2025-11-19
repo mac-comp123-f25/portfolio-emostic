@@ -38,7 +38,7 @@
 
 ## Chapter 20
 
-![MindMapCH20.jpeg](MindMapCH20.jpeg)
+![MindMapCH20.jpeg](MindMapsCH20.jpeg)
 
 ## Chapter 8
 
@@ -67,3 +67,7 @@
 ## Chapter 18
 
 ![MindMapCH18.jpeg](MindMapCH18.jpeg)
+
+## Chapter 16
+
+![MindMapCH16.jpeg](MindMapCH16.jpeg)
