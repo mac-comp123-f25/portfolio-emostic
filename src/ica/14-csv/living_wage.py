@@ -32,8 +32,7 @@ def get_state_living_wage(state, table):
     living wage table (a list of dictionaries), this looks up the given
     state's row dictionary, and returns the annual living wage for that state.
     """
-    # TODO: finish this function
-    pass
+
 
 
 def get_low_wage_states(table):
@@ -43,8 +42,12 @@ def get_low_wage_states(table):
     wage of $7.25. It returns a new sunTable, a list, containing the row
     dictionaries
     """
-    # TODO: finish this function
-    pass
+    federal_min_wage = 7.25
+    low_wage_list = []
+    for row in table:
+        if row['HourlyMinimumWage'] == federal_min_wage:
+            low_wage_list.append(row)
+    return low_wage_list
 
 
 def get_expensive_states(table):
@@ -53,8 +56,8 @@ def get_expensive_states(table):
     this finds the 5 states with the highest living wage. It returns a list
     of the five state names
     """
-    # TODO: finish this function
-    pass
+    sorted_table = sorted(table, key=lambda row: row['AnnualLivingWage'], reverse=True)
+    return sorted_table[:5]
 
 
 def annual_wage(hourly_wage):
@@ -66,9 +69,7 @@ def annual_wage(hourly_wage):
     * Each worker works 40 hours per week (no part-time work!)
     * Each worker works 52 weeks per year (no vacation time!)
     """
-    # TODO: finish this function
-    pass
-
+    return hourly_wage * 40 * 52 * 2
 
 def get_gap_states(table):
     """
@@ -80,8 +81,12 @@ def get_gap_states(table):
     earned at minimum wage.  Find the states where the annual salary at
     minimum wage is less than the living wage.
     """
-    # TODO: finish this function
-    pass
+    gap_state_names = []
+    for row in table:
+        family_min_wage_annual = annual_wage(row['HourlyMinimumWage'])
+        if family_min_wage_annual < row['AnnualLivingWage']:
+            gap_state_names.append(row['State'])
+    return gap_state_names
 
 
 # Visualizing data
